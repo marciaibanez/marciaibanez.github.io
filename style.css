@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    color: #0b0b0b;
+    font-size: 18px;
+    text-align: center;
+}
+
+main {
+    margin-top: 149px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.45;
+    margin-top: 0;
+}
+
+img {
+    width: 20em;
+    border-radius: 50%;
+    border: solid 10px #ced6e0;
+}
+.background h1 {
+    font-size: 6em;
+    margin-top: 0;
+}
+
+section h2 {
+    margin-bottom: 1em;
+}
+.myNavbar {
+    padding: .5em 0;
+    font-size: .8em;
+    background: rgba(11, 11, 11, .9);
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.myNavbar li a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.myNavbar li a:hover {
+    font-weight: bold;
+}
+
+.background {
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60vh 0 40vh 0;
+    margin-bottom: -149px;
+    margin-top: -149px;
+    color: #f1f1f1;
+}
+
+.background h1 {
+    margin: 0;
+}
+
+.social {
+    padding: 1em 0;
+    font-size: 1em;
+    line-height: 1.45;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.social li a {
+    color: #f1f1f1;
+}
+
+.copyright {
+    margin: 0;
+}
+
+section {
+    background-color: #dfe4ea;
+    padding: 3em;
+}
+
+.bg-grey {
+    background-color: #ced6e0;
+}
+
+footer {
+    background-color: #0b0b0b;
+    color: #f1f1f1;
+    padding: 1em 0;
+}
