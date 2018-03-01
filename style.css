@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Poiret One', cursive;
     color: #0b0b0b;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 main {
@@ -51,6 +51,7 @@ img {
 
 .skill-score {
     float: right;
+    font-size: 14px;
 }
 
 @media(min-width: 1200px) {
@@ -74,6 +75,7 @@ img {
     padding: .5em 0;
     font-size: .8em;
     background: rgba(11, 11, 11, .9);
+    text-align: center;
 }
 
 .navbar-nav {
