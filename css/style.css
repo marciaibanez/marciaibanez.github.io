@@ -58,16 +58,6 @@ section h2, section h3, a {
     color: #2c3e50;
 }
 
-@media (min-width: 576px) {
-    .skill-score {
-        float: right;
-        width: 50%;
-    }
-    .skills-container {
-        text-align: left;  
-    }
-}
-
 .education-container {
     margin: 0 auto;
 }
@@ -170,14 +160,12 @@ section h2, section h3, a {
 .arrow-down {
     color: rgba(255,255,255,.8);
     font-size: 3em;
+    position: absolute;
+    top: 80vh;
 }
 
 .courses li {
     cursor: pointer;
-}
-
-#back2top {
-    font-weight: bold;
 }
 
 .profile .card {
@@ -186,4 +174,21 @@ section h2, section h3, a {
 
 .badge {
     font-size: .8em;
+}
+
+#skills {
+    margin-top: 3em;
+}
+
+@media (min-width: 576px) {
+    #skills {
+        margin-top: 0em;
+    }
+    .skill-score {
+        float: right;
+        width: 50%;
+    }
+    .skills-container {
+        text-align: left;  
+    }
 }
