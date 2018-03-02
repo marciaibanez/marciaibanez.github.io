@@ -46,15 +46,15 @@ ul {
     list-style-type: none;
 }
 
-h2, h3 {
+section h2, section h3 {
     text-transform: uppercase;
 }
 
-h2, h3, li {
+section h2, section h3, li {
     font-weight: bold;
 }
 
-h2, h3, a {
+section h2, section h3, a {
     color: #2c3e50;
 }
 
