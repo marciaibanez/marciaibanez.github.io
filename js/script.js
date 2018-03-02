@@ -15,4 +15,4 @@ $('#myNavbar').flowtype({
     maxFont: 24
 });
 
-$('#myNavbar li a').click(e => $('#myNavbar').collapse('hide'));
+$('#myNavbar a').click(e => $('#myNavbar').collapse('hide'));

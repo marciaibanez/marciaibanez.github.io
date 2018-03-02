@@ -2,10 +2,14 @@
 <html lang="en">
 
 <head>
-    <title>
-        Marcia Ibanez | Web Developer
-    </title>
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <title>Marcia Ibanez | Web Developer</title>
+
+    <meta charset="utf-8">
+    <meta name="msapplication-TileColor" content="#0b0b0b">
+    <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0b0b0b">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
@@ -20,23 +24,21 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#0b0b0b">
-    <meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
-    <meta name="theme-color" content="#0b0b0b">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css?v=2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/style.css?v=3">
+    <link rel="stylesheet" href="css/fonts.css?v=1">
 </head>
 
 <body>
     <header>
         <nav class="myNavbar fixed-top navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a href="#"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -44,243 +46,341 @@
                             <i class="fas fa-id-card" aria-hidden="true"></i> PROFILE
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">
                             <i class="fas fa-star" aria-hidden="true"></i> SKILLS
                         </a>
+
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#education">
-                            <i class="fas fa-graduation-cap" aria-hidden="true"></i> EDUCATION
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">
-                            <i class="fas fa-envelope" aria-hidden="true"></i> CONTACT
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i> COURSES
                         </a>
                     </li>
                 </ul>
             </div>
+
         </nav>
     </header>
 
     <div class="text-center background">
         <h1>MARCIA IBANEZ</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="#profile" id="arrowdown">
+            <i style='font-size: 3em' class="animated bounce infinite fas fa-angle-down" aria-hidden="true"></i>
+        </a>
     </div>
 
     <main>
 
         <section id="profile" class="text-center">
-            <h2>PROFILE</h2>
-            <hr>
-            <img class="profile-img" src="img/miphoto.jpg" alt="Marcia Ibanez">
-            <p class="about">I'm a newbie web developer. </p>
-        </section>
-
-        <section id="skills" class="bg-grey">
-            <h2 class="text-center">SKILLS</h2>
-            <hr>
-            <div class="container skills-container">
+            <div class="container">
                 <div class="row">
-                    <div class="col col-sm-12">
-                        <ul class="score">
-                            <li class="skill">
-                                <span class="skill-title">HTML</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
+                    <div class="card my-card col-12 col-sm-5" style="padding: 3em 1em">
+                        <h2><i class="fas fa-id-card" aria-hidden="true"></i> Profile</h2>
+
+                        <br>
+
+                        <img class="profile-img" src="img/miphoto.jpg" alt="Marcia Ibanez">
+
+                        <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorum harum eius repudiandae
+                            praesentium nisi, provident illo veritatis temporibus, quos dicta debitis nihil atque ullam nesciunt
+                            ea ratione nemo molestiae!</p>
+
+                        <br>
+
+                        <ul class="social">
+                            <li>
+                                <a href="mailto:contato@marciaibanez.com" target="_top">
+                                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                                </a>
                             </li>
-                            <li class="skill">
-                                <span class="skill-title">CSS</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
+                            <li>
+                                <a href="https://www.linkedin.com/in/marcia-ibañez-de-santis-b0258aaa/" target="_blank">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                </a>
                             </li>
-                            <li class="skill">
-                                <span class="skill-title">BOOTSTRAP</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
+                            <li>
+                                <a href="https://github.com/marciaibanez" target="_blank">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
                             </li>
-                            <li class="skill">
-                                <span class="skill-title">SASS</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
+                            <li>
+                                <a href="https://codepen.io/marciaibanez/" target="_blank">
+                                    <i class="fab fa-codepen" aria-hidden="true"></i>
+                                </a>
                             </li>
-                            <li class="skill">
-                                <span class="skill-title">JQUERY</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </li>
-                            <li class="skill">
-                                <span class="skill-title">JAVASCRIPT</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </li>
-                            <li class="skill">
-                                <span class="skill-title">REACT</span>
-                                <div class="skill-score">
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </li>
-                            <li class="skill">
-                                <span class="skill-title">PYTHON</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </li>
-                            <li class="skill">
-                                <span class="skill-title">PHP</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </li>
-                            <li class="skill">
-                                <span class="skill-title">GIT</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
+                            <li>
+                                <a href="https://www.freecodecamp.com/marciaibanez" target="_blank">
+                                    <i class="fab fa-free-code-camp" aria-hidden="true"></i>
+                                </a>
                             </li>
                         </ul>
+
                     </div>
+
+                    <div class="col" id="skills">
+                        <h2 class="text-center"><i class="fas fa-star" aria-hidden="true"></i> Skills</h2>
+
+                        <br>
+
+                        <div class="skills-container">
+
+                            <ul class="score">
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #EA4C31' class="fab fa-html5" aria-hidden="true"></i> HTML</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #0D71B5' class="fab fa-css3-alt" aria-hidden="true"></i> CSS</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #583E79' class="fas fa-bold" aria-hidden="true"></i> BOOTSTRAP</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #D26398' class="fab fa-sass" aria-hidden="true"></i> SASS</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 30%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #FEB534' class="fab fa-js" aria-hidden="true"></i> JAVASCRIPT</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #FEB534' class="fab fa-js" aria-hidden="true"></i> JQUERY</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #52D9F8' class="fab fa-react" aria-hidden="true"></i> REACT</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #47B870' class="fab fa-python" aria-hidden="true"></i> PYTHON</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #4F5B8F' class="fab fa-php" aria-hidden="true"></i> PHP</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #F6503C' class="fab fa-git" aria-hidden="true"></i> GIT</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #009C41' class="fas fa-language" aria-hidden="true"></i> PORTUGUESE</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #0D71B5' class="fas fa-language" aria-hidden="true"></i> ENGLISH</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="skill">
+                                    <span class="skill-title">
+                                        <i style='color: #FEB534' class="fas fa-language" aria-hidden="true"></i> GERMAN</span>
+                                    <div class="skill-score">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="education">
-            <h2 class="text-center">EDUCATION</h2>
-            <hr>
+        <section id="education" class="text-center bg-grey">
             <div class="container education-container">
-                <div class="row">
-                    <div class="col col-sm-6 text-center">
-                        <h3>Courses</h3>
-                        <ul class="courses">
-                            <li>Full Stack Web Development Certification - Free Code Camp</li>
-                            <li>Advanced Styling with Responsive Design - University of Michigan</li>
-                            <li>CSS/SASS/BEM - Udemy</li>
-                            <li>CSS Web Development Crash Course - Udemy</li>
-                            <li>Interactivity with JavaScript - University of Michigan</li>
-                            <li>Python for Begginers - Udemy</li>
-                            <li>HTML, CSS and JavaScript for Web Developers - John Hopkins University</li>
-                            <li>Introduction to HTML5 - University of Michigan</li>
-                            <li> Introduction to CSS3 - University of Michigan</li>
-                            <li>Scrum Fundamentals Certified - Scrum Study</li>
-                        </ul>
-                    </div>
-                    <div class="col col-sm-6">
-                        <h3 class="text-center">Languages</h3>
-                        <ul id="languages" class="languages">
-                            <li>
-                                <span class="skill-title">Portuguese</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-title">English</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="skill-title">German</span>
-                                <div class="skill-score">
-                                    <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+
+                <h2>
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <span class="thinline"></span>Courses</span>
+                </h2>
+
+                <br>
+
+                <ul class="courses">
+                    <li data-toggle="collapse" href="#course-fswdc" role="button" aria-expanded="false" aria-controls="course-fswdc" class="skill my-card">
+                        Full Stack Web Development Certification - Free Code Camp
+                        <div class="collapse" id="course-fswdc">
+                            <hr>
+                            @todo: add info
+                        </div>
+                    </li>
+                    <li data-toggle="collapse" href="#course-aswrd" role="button" aria-expanded="false" aria-controls="course-aswrd" class="skill my-card">
+                        Advanced Styling with Responsive Design - University of Michigan
+                        <div class="collapse" id="course-aswrd">
+                            <hr>
+                            <img src="img/FN9K3Y5TG8YX-1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li data-toggle="collapse" href="#course-csb" role="button" aria-expanded="false" aria-controls="course-csb" class="skill my-card">
+                        CSS/SASS/BEM - Udemy
+                        <div class="collapse" id="course-csb">
+                            <hr>
+                            <img src="img/UC-Q0DAM0EW.jpg" alt="">
+                        </div>
+                    </li>
+                    <li data-toggle="collapse" href="#course-cwdcc" role="button" aria-expanded="false" aria-controls="course-cwdcc" class="skill my-card">
+                        CSS Web Development Crash Course - Udemy
+                        <div class="collapse" id="course-cwdcc">
+                            <hr>
+                            <img src="img/UC-X4OJI11R-1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li data-toggle="collapse" href="#course-iwj" role="button" aria-expanded="false" aria-controls="course-iwj" class="skill my-card">
+                        Interactivity with JavaScript - University of Michigan
+                        <div class="collapse" id="course-iwj">
+                            <hr>
+                            <img src="img/8MAM98K3JWHP-1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li data-toggle="collapse" href="#course-pfb" role="button" aria-expanded="false" aria-controls="course-pfb" class="skill my-card">
+                        Python for Begginers - Udemy
+                        <div class="collapse" id="course-pfb">
+                            <hr>
+                            <img src="img/UC-E1QJ55P2-1.jpg" alt="">
+                        </div>
+                    </li>
+                    <li data-toggle="collapse" href="#course-hcajfwd" role="button" aria-expanded="false" aria-controls="course-hcajfwd" class="skill my-card">
+                        HTML, CSS and JavaScript for Web Developers - John Hopkins University
+                        <div class="collapse" id="course-hcajfwd">
+                            <hr>
+                            <img src="img/XBK2VWSYYR4U-1.jpg" alt="">
+                        </div>
+                    </li>
+
+                    <li data-toggle="collapse" href="#course-ith" role="button" aria-expanded="false" aria-controls="course-ith" class="skill my-card">
+                        Introduction to HTML5 - University of Michigan
+                        <div class="collapse" id="course-ith">
+                            <hr>
+                            <img src="img/GP93RSAS9RXV-1.jpg" alt="">
+                        </div>
+                    </li>
+
+                    <li data-toggle="collapse" href="#course-itc" role="button" aria-expanded="false" aria-controls="course-itc" class="skill my-card">
+                        Introduction to CSS3 - University of Michigan
+                        <div class="collapse" id="course-itc">
+                            <hr>
+                            <img src="img/HJBDUYLES2BN-1.jpg" alt="">
+                        </div>
+                    </li>
+
+                    <li data-toggle="collapse" href="#course-sfc" role="button" aria-expanded="false" aria-controls="course-sfc" class="skill my-card">
+                        Scrum Fundamentals Certified - Scrum Study
+                        <div class="collapse" id="course-sfc">
+                            <hr>
+                            @todo: add info
+                        </div>
+                    </li>
+
+                </ul>
+
             </div>
+
         </section>
+
     </main>
 
     <footer id="contact" class="text-center">
-        <h2>CONTACT</h2>
-        <ul class="social">
-            <li>
-                <a href="mailto:contato@marciaibanez.com" target="_top">
-                    <i class="fas fa-envelope" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/marciaibanez/" target="_blank">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/marciaibanez" target="_blank">
-                    <i class="fab fa-github" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://codepen.io/marciaibanez/" target="_blank">
-                    <i class="fab fa-codepen" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.freecodecamp.com/marciaibanez" target="_blank">
-                    <i class="fab fa-free-code-camp" aria-hidden="true"></i>
-                </a>
-            </li>
-        </ul>
-        <p class="copyright">
-            <i class="far fa-copyright" aria-hidden="true"></i> MARCIA IBANEZ</p>
+        <p class="copyright"><i class="far fa-copyright" aria-hidden="true"></i> MARCIA IBANEZ</p>
     </footer>
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
