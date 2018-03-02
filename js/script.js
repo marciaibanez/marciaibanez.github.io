@@ -8,13 +8,6 @@ $('.background').flowtype({
 
 });
 
-$('.social').flowtype({
-    minimum: 500,
-    maximum: 1980,
-    minFont: 20,
-    maxFont: 100
-});
-
 $('#myNavbar').flowtype({
     minimum: 200,
     maximum: 1980,
@@ -22,4 +15,4 @@ $('#myNavbar').flowtype({
     maxFont: 24
 });
 
-$('#myNavbar a').click(e => $('#myNavbar').collapse('hide'));
+$('#myNavbar li a').click(e => $('#myNavbar').collapse('hide'));
