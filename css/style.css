@@ -168,7 +168,7 @@ h2, h3, a {
     border-bottom: 3px solid #f39c12;
 }
 
-#arrowdown {
+.arrow-down {
     color: rgba(255,255,255,.8);
     font-size: 3em;
 }
