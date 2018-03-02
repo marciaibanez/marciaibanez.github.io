@@ -70,7 +70,6 @@ h2, h3, a {
 
 .education-container {
     margin: 0 auto;
-    max-width: 600px;
 }
 
 .profile-img {
@@ -150,11 +149,11 @@ h2, h3, a {
 
 .skill {
     padding: 1em;
+    padding-right: 0;
 }
 
 .my-card {
     background-color: rgba(255,255,255,.8);
-    padding: 1em;
     box-shadow: 1px 1px 2px 0px rgba(0,0,0,.2);
     margin-bottom: .5em;
 }
@@ -179,4 +178,12 @@ h2, h3, a {
 
 #back2top {
     font-weight: bold;
+}
+
+.profile .card {
+    padding: 4em 1em;
+}
+
+.badge {
+    font-size: .8em;
 }
