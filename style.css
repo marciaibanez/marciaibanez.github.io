@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Poiret One', cursive;
     color: #0b0b0b;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 main {
@@ -21,49 +21,80 @@ p {
 }
 
 section h2 {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+}
+
+section, footer {
+    padding: 3em;
 }
 
 section {
     background-color: #dfe4ea;
-    padding: 3em;
 }
 
 footer {
     background-color: #0b0b0b;
     color: #f1f1f1;
-    padding: 1em 0;
 }
 
 img {
     max-width: 100%;
 }
 
-#skills ul {
+ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
+.skill, .courses li, .languages li, h3 {
+    margin-bottom: 1.5em;
+}
 
-.skill-title {
+h2, h3, li {
     font-weight: bold;
 }
 
 .skill-score {
-    float: right;
     font-size: 14px;
+}
+
+.skills-container, .education-container {
+    text-align: center;
 }
 
 @media(min-width: 1200px) {
     .skills-container {
         max-width: 600px;
     }
+    .education-container {
+        max-width: 1600px;
+    }
+    #languages {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 576px) {
+    .skill-score {
+        float: right;
+    }
+    .skills-container {
+        text-align: left;  
+    }
+    .education-container {
+        text-align: left;
+    }
 }
 
 .profile-img {
-    width: 20em;
+    width: 18em;
     border-radius: 50%;
     border: solid 10px #ced6e0;
+}
+
+.about {
+    font-size: 1.2em;
 }
 
 .background h1 {
