@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/marciaibanez/marciaibanez.github.io#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
   }
 }
