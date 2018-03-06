@@ -20,7 +20,7 @@ p {
 }
 
 section {
-    padding: 2em;
+    padding: 2em 0;
 }
 
 footer {
@@ -73,6 +73,7 @@ section h2, section h3, a {
 .about {
     font-size: 1.2em;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .background h1 {
@@ -139,7 +140,6 @@ section h2, section h3, a {
 
 .skill {
     padding: .9em;
-    padding-right: 0;
 }
 
 .my-card {
