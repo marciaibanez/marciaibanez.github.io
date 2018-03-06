@@ -1,18 +1,21 @@
-var scroll = new SmoothScroll('a[href*="#"]',{
-    offset: 66
+var scroll;
+
+scroll = new SmoothScroll('a[href*="#"]', {
+  offset: 66
 });
 
 $('.banner').flowtype({
-    minimum: 200,
-    maximum: 600,
-
+  minimum: 200,
+  maximum: 600
 });
 
 $('#myNavbar').flowtype({
-    minimum: 200,
-    maximum: 1980,
-    minFont: 16,
-    maxFont: 24
+  minimum: 200,
+  maximum: 1980,
+  minFont: 16,
+  maxFont: 24
 });
 
-$('#myNavbar a').click(e => $('#myNavbar').collapse('hide'));
+$('#myNavbar a').click(function() {
+  return $('#myNavbar').collapse('hide');
+});
