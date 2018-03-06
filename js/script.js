@@ -2,7 +2,7 @@ var scroll = new SmoothScroll('a[href*="#"]',{
     offset: 66
 });
 
-$('.background').flowtype({
+$('.banner').flowtype({
     minimum: 200,
     maximum: 600,
 

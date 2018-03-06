@@ -3,17 +3,15 @@
     font-size: .8em;
     background: rgba(11, 11, 11, .9);
     text-align: center;
+    li a {
+        color: #f1f1f1;
+        text-decoration: none;
+        &:hover {
+            font-weight: bold;
+        }
+    }
 }
 
 .navbar-nav {
     margin: 0 auto;
-}
-
-.myNavbar li a {
-    color: #f1f1f1;
-    text-decoration: none;
-}
-
-.myNavbar li a:hover {
-    font-weight: bold;
 }

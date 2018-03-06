@@ -9,6 +9,11 @@ main {
     margin-top: 101px;
 }
 
+h1 {
+    font-size: 6em;
+    margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -21,17 +26,16 @@ p {
 
 section {
     padding: 2em 0;
+    background-color: #dfe4ea;
+    h2,h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #2c3e50;
+    }
 }
 
 footer {
     padding: 1em;
-}
-
-section {
-    background-color: #dfe4ea;
-}
-
-footer {
     background-color: #111;
     color: #f1f1f1;
 }
@@ -46,19 +50,10 @@ ul {
     list-style-type: none;
 }
 
-section h2,
-section h3 {
-    text-transform: uppercase;
-}
-
-section h2,
-section h3,
 li {
     font-weight: bold;
 }
 
-section h2,
-section h3,
 a {
     color: #2c3e50;
 }

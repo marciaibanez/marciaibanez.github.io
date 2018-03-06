@@ -31,6 +31,10 @@ body {
 main {
   margin-top: 101px; }
 
+h1 {
+  font-size: 6em;
+  margin: 0; }
+
 h1,
 h2,
 h3,
@@ -41,15 +45,15 @@ p {
   line-height: 1.45; }
 
 section {
-  padding: 2em 0; }
-
-footer {
-  padding: 1em; }
-
-section {
+  padding: 2em 0;
   background-color: #dfe4ea; }
+  section h2, section h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c3e50; }
 
 footer {
+  padding: 1em;
   background-color: #111;
   color: #f1f1f1; }
 
@@ -61,17 +65,9 @@ ul {
   padding: 0;
   list-style-type: none; }
 
-section h2,
-section h3 {
-  text-transform: uppercase; }
-
-section h2,
-section h3,
 li {
   font-weight: bold; }
 
-section h2,
-section h3,
 a {
   color: #2c3e50; }
 
@@ -80,16 +76,14 @@ a {
   font-size: .8em;
   background: rgba(11, 11, 11, 0.9);
   text-align: center; }
+  .myNavbar li a {
+    color: #f1f1f1;
+    text-decoration: none; }
+    .myNavbar li a:hover {
+      font-weight: bold; }
 
 .navbar-nav {
   margin: 0 auto; }
-
-.myNavbar li a {
-  color: #f1f1f1;
-  text-decoration: none; }
-
-.myNavbar li a:hover {
-  font-weight: bold; }
 
 .profile-img {
   width: 18em;
@@ -98,24 +92,22 @@ a {
   border: solid 10px #dfe4ea;
   margin: 0 auto; }
 
-.about {
+.profile .card {
+  padding: 4em 1em; }
+
+.profile .about {
   font-size: 1.2em;
   font-weight: bold;
   margin-top: 2em;
   margin-bottom: 2em; }
 
-.social {
+.profile .social {
   font-size: 2em; }
+  .profile .social li {
+    display: inline-block;
+    margin: 0 10px 0 10px; }
 
-.social li {
-  display: inline-block;
-  margin: 0 10px 0 10px; }
-
-.background h1 {
-  font-size: 6em;
-  margin-top: 0; }
-
-.background {
+.banner {
   background-image: url("../img/background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,34 +116,21 @@ a {
   margin-bottom: -203px;
   margin-top: -101px;
   color: #f1f1f1; }
-
-.background h1 {
-  margin: 0; }
-
-.bg-grey {
-  background-color: #ced6e0; }
-
-.arrow-down {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 3em;
-  position: absolute;
-  top: 80vh; }
-
-.card {
-  border: 0;
-  border-radius: 0; }
+  .banner .arrow-down {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3em;
+    position: absolute;
+    top: 80vh; }
 
 .my-card {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  margin-bottom: .5em; }
-
-.my-card:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3); }
-
-.profile .card {
-  padding: 4em 1em; }
+  margin-bottom: .5em;
+  border: 0;
+  border-radius: 0; }
+  .my-card:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3); }
 
 .education-container {
   margin: 0 auto; }
@@ -179,3 +158,6 @@ a {
 
 .m0 {
   margin: 0; }
+
+.bg-grey {
+  background-color: #ced6e0; }
