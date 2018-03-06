@@ -150,7 +150,7 @@ a {
 #skills {
   margin-top: 3em; }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #skills {
     margin-top: 0em; }
   .skill-score {
