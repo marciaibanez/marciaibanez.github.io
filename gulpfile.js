@@ -3,7 +3,6 @@ var browserSync  = require('browser-sync').create();
 var sass         = require('gulp-sass');
 var coffeescript = require('gulp-coffeescript');
 var gutil        = require('gulp-util');
-var notify       = require("gulp-notify");
 var mustache     = require("gulp-mustache");
 
 // Static Server + watching scss/html files
@@ -16,7 +15,10 @@ gulp.task('serve', function() {
     gulp.watch("scss/*.scss", ['sass']);
     gulp.watch("src/*.coffee", ['coffee']);
     gulp.watch("templates/*.mustache", ['mustache']);
+    gulp.watch("settings.json", ['mustache']);
+
     gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch("settings.json").on('change', browserSync.reload);
 });
 
 // Compile sass into CSS & auto-inject into browsers
@@ -25,7 +27,6 @@ gulp.task('sass', function() {
       .src("scss/style.scss")
       .pipe(sass())
       .pipe(gulp.dest("css"))
-      .pipe(notify("CSS generated!"))
       .pipe(browserSync.stream());
 });
 
@@ -34,7 +35,7 @@ gulp.task('coffee', function() {
         .src("./src/*.coffee")
         .pipe(coffeescript({ bare: true }).on("error", gutil.log))
         .pipe(gulp.dest("./js/"))
-        .pipe(notify("JS generated!"));
+        .pipe(browserSync.stream());
 });
 
 gulp.task('mustache', function() {
@@ -42,6 +43,6 @@ gulp.task('mustache', function() {
       .src("./templates/*.mustache")
       .pipe(mustache("settings.json", { extension: ".html" }, {}))
       .pipe(gulp.dest("./"))
-      .pipe(notify("HTML generated!"));
+      .pipe(browserSync.stream());
 })
 gulp.task('default', ['serve']);
