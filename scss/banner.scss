@@ -1,15 +1,17 @@
 .banner {
-    background-image: url("../img/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding: 50vh 0;
+    background: {
+        image: url("../img/background.png");
+        size: cover;
+        repeat: no-repeat;
+        attachment: fixed;
+    }
+    color: #f1f1f1;
     margin-bottom: -203px;
     margin-top: -101px;
-    color: #f1f1f1;
+    padding: 50vh 0;
 
     .arrow-down {
-        color: rgba(255, 255, 255, .8);
+        color: rgba(#FFF, .8);
         font-size: 3em;
         position: absolute;
         top: 80vh;

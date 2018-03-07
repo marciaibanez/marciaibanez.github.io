@@ -3,7 +3,7 @@
   font-family: 'Poiret One';
   font-style: normal;
   font-weight: 400;
-  src: local("Poiret One"), local("PoiretOne-Regular"), url(https://fonts.gstatic.com/s/poiretone/v5/UqyVK80NJXN4zfRgbdfbo5pcV_cx.woff2) format("woff2");
+  src: local("Poiret One"), local("PoiretOne-Regular"), url(../fonts/UqyVK80NJXN4zfRgbdfbo5pcV_cx.woff2) format("woff2");
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
 
 /* latin-ext */
@@ -11,7 +11,7 @@
   font-family: 'Poiret One';
   font-style: normal;
   font-weight: 400;
-  src: local("Poiret One"), local("PoiretOne-Regular"), url(https://fonts.gstatic.com/s/poiretone/v5/UqyVK80NJXN4zfRgbdfbo5BcV_cx.woff2) format("woff2");
+  src: local("Poiret One"), local("PoiretOne-Regular"), url(../fonts/UqyVK80NJXN4zfRgbdfbo5BcV_cx.woff2) format("woff2");
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
 
 /* latin */
@@ -19,7 +19,7 @@
   font-family: 'Poiret One';
   font-style: normal;
   font-weight: 400;
-  src: local("Poiret One"), local("PoiretOne-Regular"), url(https://fonts.gstatic.com/s/poiretone/v5/UqyVK80NJXN4zfRgbdfbo55cVw.woff2) format("woff2");
+  src: local("Poiret One"), local("PoiretOne-Regular"), url(../fonts/UqyVK80NJXN4zfRgbdfbo55cVw.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
 body {
@@ -71,19 +71,50 @@ li {
 a {
   color: #2c3e50; }
 
-.myNavbar {
+.m0 {
+  margin: 0; }
+
+.m0-auto {
+  margin: 0 auto; }
+
+.bg-grey {
+  background-color: #ced6e0; }
+
+.my-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: .5em;
+  border: 0;
+  border-radius: 0; }
+  .my-card:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3); }
+
+.my-navbar {
   padding: .5em 0;
   font-size: .8em;
   background: rgba(11, 11, 11, 0.9);
   text-align: center; }
-  .myNavbar li a {
+  .my-navbar li a {
     color: #f1f1f1;
     text-decoration: none; }
-    .myNavbar li a:hover {
+    .my-navbar li a:hover {
       font-weight: bold; }
 
-.navbar-nav {
-  margin: 0 auto; }
+.banner {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f1f1f1;
+  margin-bottom: -203px;
+  margin-top: -101px;
+  padding: 50vh 0; }
+  .banner .arrow-down {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3em;
+    position: absolute;
+    top: 80vh; }
 
 .profile-img {
   width: 18em;
@@ -107,34 +138,6 @@ a {
     display: inline-block;
     margin: 0 10px 0 10px; }
 
-.banner {
-  background-image: url("../img/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding: 50vh 0;
-  margin-bottom: -203px;
-  margin-top: -101px;
-  color: #f1f1f1; }
-  .banner .arrow-down {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 3em;
-    position: absolute;
-    top: 80vh; }
-
-.my-card {
-  background-color: rgba(255, 255, 255, 0.8);
-  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  margin-bottom: .5em;
-  border: 0;
-  border-radius: 0; }
-  .my-card:hover {
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3); }
-
-.education-container {
-  margin: 0 auto; }
-
 .skill {
   padding: .9em; }
 
@@ -147,7 +150,7 @@ a {
 #skills {
   margin-top: 3em; }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   #skills {
     margin-top: 0em; }
   .skill-score {
@@ -155,9 +158,3 @@ a {
     width: 50%; }
   .skills-container {
     text-align: left; } }
-
-.m0 {
-  margin: 0; }
-
-.bg-grey {
-  background-color: #ced6e0; }
